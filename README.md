@@ -23,6 +23,7 @@ Would be awesome get data and metrics for chapters too! :)
 ## Why I want this
 * I study statistics and will be a statician in the future
 * My girlfriend started writing in Wattpad a year ago and I started to study the metrics, as you can see here: [Book Watcher](http://bookwatcher.servebeer.com)
+
 So, I am interested in this data and it's behaviour, so I can study and also make my girlfriend happy seeing the results and reports :)
 
 ## Problems encountered
