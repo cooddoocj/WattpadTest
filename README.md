@@ -20,6 +20,11 @@ I expect some book data and metrics, like:
 
 Would be awesome get data and metrics for chapters too! :)
 
+## Why I want this
+* I study statistics and will be a statician in the future
+* My girlfriend started writing in Wattpad a year ago and I started to study the metrics, as you can see here: [Book Watcher](http://bookwatcher.servebeer.com)
+So, I am interested in this data and it's behaviour, so I can study and also make my girlfriend happy seeing the results and reports :)
+
 ## Problems encountered
 * Search by Book Title
   * Well, I don't expect a Google Engine here but, sometimes, the most relevant result is not on the "front page" (first 10 results in JSON)
@@ -60,4 +65,6 @@ So, after everything failed, I did an App Log In to get an Access Token and trye
 * Using Bearer username, Developers' Playground Access Token and Developers' Playground API-KEY
 
 ## What I need
-* # HELP!
+* HELP!
+* HELP!
+* HELP!
