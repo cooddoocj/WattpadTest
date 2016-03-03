@@ -59,4 +59,3 @@ print_response_json_html($response);
 flush();
 
 print_end_html();
-?>

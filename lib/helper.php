@@ -2,15 +2,19 @@
 
 include 'const.php';
 
-function assure_response($response) {
+function assure_response($response, $should_die=FALSE) {
 	if ($response->status_code == 200)
-		return;
+		return TRUE;
 
 	echo 'Error! Response dumped:<br /><br />';
 	echo '<pre>';
 	print_r($response);
 	echo '</pre><br /><br />';
-	die();
+	
+	if ($should_die == TRUE)
+		die();
+	
+	return FALSE;
 }
 
 function is_logged_in() {
@@ -42,7 +46,10 @@ function print_end_html() {
 
 function print_tests_html() {
 	echo '<div>';
-	echo '<a href="search_by_text.php">Searches by Text Test</a>';
+	echo '<a href="search_by_book_title.php">(Story) Searches by Title Test</a><br />';
+	echo '<a href="search_by_book_id.php">(Story) Searches by ID Test</a><br />';
+	echo '<a href="search_by_book_description_tag.php">(Story) Searches by Description Tag Test (Personalized)</a><br />';
+	echo '<a href="search_by_list_id.php">(List) Searches by List ID Test (Personalized)</a><br />';
 	echo '</div>';
 	echo '<hr />';
 }
