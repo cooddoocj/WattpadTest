@@ -50,6 +50,8 @@ function print_tests_html() {
 	echo '<a href="search_by_book_id.php">(Story) Searches by ID Test</a><br />';
 	echo '<a href="search_by_book_description_tag.php">(Story) Searches by Description Tag Test (Personalized)</a><br />';
 	echo '<a href="search_by_list_id.php">(List) Searches by List ID Test (Personalized)</a><br />';
+	echo '<br />';
+	echo '<a href="http://bookwatcher.servebeer.com" target="_blank">Book Watcher</a>';
 	echo '</div>';
 	echo '<hr />';
 }
